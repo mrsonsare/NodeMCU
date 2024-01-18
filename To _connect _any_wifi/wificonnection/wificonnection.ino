@@ -11,6 +11,7 @@ while(WiFi.status() != WL_CONNECTED)
 }
 Serial.println();
 Serial.println("NodeMCU is Connected !");
+Serial.println(WiFi.localIP());
 
 }
 
